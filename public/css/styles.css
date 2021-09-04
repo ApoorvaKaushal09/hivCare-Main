@@ -386,8 +386,8 @@ main .con-1 h2{
   justify-content:space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-top: 30px;
+  margin-bottom: 30px; */
 }
 .sec a{
   margin-bottom: 50px;
