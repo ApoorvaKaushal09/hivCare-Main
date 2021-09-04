@@ -38,7 +38,7 @@
 
 
 .quote {
-    margin: 25px 0;
+    
     background: #eee;
     padding: 1em;
     border-radius: 1em;
@@ -456,4 +456,26 @@ main .con-1 h2{
       text-align: center;
       color: rgb(224, 93, 93);
       font-family: 'Kaisei HarunoUmi', serif;
+  }
+
+
+  .quote {
+    background: #ffdde2;
+    padding: 1em;
+    border-radius: 1em;
+  }
+  .quote figcaption,
+  .quote blockquote {
+    margin: 1em;
+  }
+  figure{
+      margin: 20px;
+  }
+
+  .headingCard{
+    text-align: center;
+    color: rgb(224, 93, 93);
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 100px;
+    padding: 20px;
   }

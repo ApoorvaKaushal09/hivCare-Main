@@ -70,6 +70,36 @@ app.post("/compose", function(req,res){
 app.get("/quiz",function(req,res){
   res.render("quiz");
 })
+app.get("/transmission",function(req,res){
+  res.render("transmission");
+})
+
+app.get("/prevention",function(req,res){
+  res.render("prevention");
+})
+
+
+
+app.get("/stigma",function(req,res){
+  res.render("stigma");
+})
+
+
+app.get("/covid",function(req,res){
+  res.render("covid");
+})
+
+
+app.get("/living",function(req,res){
+  res.render("living");
+})
+
+
+
+app.get("/testing",function(req,res){
+  res.render("testing");
+})
+
 
 
 
