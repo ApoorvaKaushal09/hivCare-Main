@@ -88,11 +88,12 @@
     </div>
     
 
-    <input type="submit" class="result" value="Submit" onclick="result()"/>
+    <input type="submit" class="result" value="Submit"/>
     <!-- <button type="submit" class="result" name="submit" onclick="">Check</button> -->
 
 
 <!-- js -->
+
 <% function result(){%>
     <%var count=0;%>
     <%if(document.getElementById('yes1').checked)count++;%>
@@ -114,7 +115,7 @@
     <%if(count==0)%>
     <%document.write("You are completely safe!");%>
 <%}%>
-
+<!--   document.getElementByClass('result').addEventListener('click',result())%>  -->
 
 
 <!-- <script src='/views/result.js' type='text/javascript'></script> -->
