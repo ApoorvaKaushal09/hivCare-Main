@@ -85,11 +85,11 @@ app.post("/quiz",function(req,res){
   if(req.body.Q9y)c++;
   if(req.body.Q10y)c++;
   if(c>=1 && c <=5)
-     res.send("You are Having a low risk.You should consider having a HIV test.");
+     res.render("quizans1");
     if(c> 5)
-    res.send("You are on a high risk! You must have a HIV test as soon as possible");
+    res.render("quizans2");
     if(c==0)
-    res.send("bad");
+    res.render("quizans3");
 });
 
 
