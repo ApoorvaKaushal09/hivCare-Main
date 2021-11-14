@@ -20,20 +20,23 @@
 </head>
 <body>
     <header class="sticky">
-        <nav class="navbar navbar-default">
-            <ul class="elements">
-            <li><a class="active" href="/about">About Us</a></li>
-            <li><a href="/blog">Blogs</a></li>
-            <li><a href="/contact">Contact Us</a></li>
-            </ul>
+        <nav class="navbar navbar-expand">
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/blog">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                </ul>
+            </div>
          </nav>
 
         </header>
-        <div class="banner-container">
+        <div class="banner-lockup">
             <div class="banner-text">
                 <h1>hivCare</h1>
                 <h3> Improving lives together.</h3>
                 </div>
+            <div class="banner-container" style="position:relative;margin-top:0px;">
             </div>
         </div>
 <div class="about">
@@ -42,7 +45,9 @@
 </div>
 <div class="boxes">
 <main>
-    <div><img src="/images/quiz.png" alt=""></div>
+    <div class="image-container">
+        <div style="width:100%;"><img width="100%" src="/images/quiz.png" alt=""></div>
+    </div>
     <div class="con-1"><h2>Take your Self assessment Test</h2>
         <p>This is an interactive clinical assessment tool that will assist individuals on deciding when to seek testing or medical care if they suspect they or someone they know has contracted hiv or has come into close contact with someone suffering with hiv.
             The online, mobile-friendly tool asks a series of questions, and based on the user’s responses, provides recommended actions.</p>
@@ -56,7 +61,9 @@
         <a href="/blog"><button type="submit" name="buttonCompose" class=" btn btn-success">Explore Blogs</button></a>
 
     </div>
-    <div><img class="img2" src="images/blogimg.png" alt=""></div>
+    <div class="image-container">
+        <div style="width:100%"><img width="100%" class="img2" src="images/blogimg.png" alt=""></div>
+    </div>
 </div>
 </div>
 
@@ -64,8 +71,6 @@
     <a href="/transmission"><img src="images/transmission.png" width="260px" alt=""></a>
     <a href="/prevention"><img src="images/prevention.png" width="260px" alt=""></a>
     <a href="/stigma"><img src="images/stigma.png" width="260px" alt=""></a>
-</div>
-<div class="sec">
     <a href="/covid"><img src="images/covid.png" width="260px" alt=""></a>
     <a href="/living"><img src="images/living.png" width="260px" alt=""></a>
     <a href="/testing"><img src="images/testing.png" width="260px" alt=""></a>
